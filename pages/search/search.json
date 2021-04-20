@@ -1,0 +1,7 @@
+{
+    "usingComponents": {
+        "page-title": "/component/page-title/page-title",
+        "g-loading": "/component/gui/loading/loading",
+        "g-input": "/component/gui/input/input"
+    }
+}

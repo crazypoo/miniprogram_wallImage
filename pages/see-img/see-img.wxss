@@ -1,0 +1,68 @@
+.page{
+    background: url(https://www.ludeqi.com/wp-content/uploads/1615296117-7f660c8a7ee245b.png) no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.top-bar {
+    background: none;
+}
+
+.bom-bar {
+    position: fixed;
+    width: 100%;
+    height: 88rpx;
+    bottom: 0;
+    left: 0;
+    font-size: 22rpx;
+    text-align: center;
+    color: rgba(255,255,255,.9);
+    background-color: rgba(0,0,0,.4);
+}
+
+.bom-bar>view {
+    position: relative;
+}
+
+.bom-bar .iconfont {
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    font-size: 36rpx;
+    padding: 6rpx 0;
+}
+
+.down .iconfont {
+    position: relative;
+    width: 76rpx;
+    height: 76rpx;
+    line-height: 54rpx;
+    border-radius: 50%;
+    top: -38rpx;
+    background-color: #2953ff;
+}
+
+.down>view {
+    margin-top: -24rpx;
+}
+
+.down::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin: -44rpx 0 0 -44rpx;
+    width: 88rpx;
+    height: 44rpx;
+    background-color: rgba(0,0,0,.4);
+    border-radius: 44rpx 44rpx 0 0;
+}
+
+.custom-btn {
+    height: auto!important;
+    line-height: inherit!important;
+    padding: 0!important;
+    background-color: initial!important;
+    font-size: inherit!important;
+    color: #fff!important;
+}

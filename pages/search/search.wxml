@@ -1,0 +1,20 @@
+<view class="page {{isIPX}} {{Android}}">
+    <view class="top-bar">
+        <page-title isprev="{{true}}" title="搜索"></page-title>
+        <view class="">
+            <g-input bindconfirm="inConfirm" placeholder="输入关键词搜索壁纸" value="{{pageJson.tag}}"></g-input>
+        </view>
+    </view>
+    <view class="content">
+        <scroll-view scrollY bindscrolltolower="inGetList" class="scroll-bar">
+            <view class="wrap">
+                <view class="flex-bar flex-wrap item-img">
+                    <view class="col-6 opacity" wx:for="{{listData}}" wx:key="{{index}}">
+                        <image bindtap="inToSeeImg" class="img" data-src="{{item.imageUrl}}" mode="aspectFill" src="{{item.imageUrl}}"></image>
+                    </view>
+                </view>
+            </view>
+            <g-loading mode="box" show="{{state.loading&&pageJson.tag.length}}"></g-loading>
+        </scroll-view>
+    </view>
+</view>

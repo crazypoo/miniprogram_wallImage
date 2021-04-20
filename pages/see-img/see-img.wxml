@@ -1,0 +1,22 @@
+<view class="page {{isIPX}}">
+    <view class="top-bar fixed">
+        <page-title></page-title>
+    </view>
+    <image bindtap="inSeeImg" class="top-img" mode="aspectFill" src="{{imgsrc}}" style="height:{{sys.screenHeight*2}}rpx"></image>
+    <view class="flex-bar bom-bar fixed">
+        <view bindtap="inToPage" class="flex1">
+            <text class="iconfont icon-home"></text>
+            <view>首页</view>
+        </view>
+        <view bindtap="inDowmImg" class="flex1 down">
+            <text class="iconfont icon-down"></text>
+            <view>保存</view>
+        </view>
+        <view class="flex1">
+            <g-button gClass="custom-btn" opentype="share">
+                <text class="iconfont icon-share"></text>
+                <view>分享</view>
+            </g-button>
+        </view>
+    </view>
+</view>
