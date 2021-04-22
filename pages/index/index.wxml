@@ -9,7 +9,7 @@
     <view class="content">
     <view class="yuan-ad">
     <navigator url="/pages/appdown/appdown">
-    <image src="https://www.ludeqi.com/wp-content/uploads/2020/12/logo.png"></image>
+    <!-- <image src="https://www.ludeqi.com/wp-content/uploads/2020/12/logo.png"></image> -->
     </navigator>
     </view>
         <scroll-view scrollY bindscrolltolower="inGetList" class="scroll-bar" hidden="{{!(tagData.active==0)}}">

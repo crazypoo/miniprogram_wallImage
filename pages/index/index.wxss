@@ -36,7 +36,10 @@ page,.page {
 .row-bar {
     padding: 30rpx 0;
 }
-.yuan-ad{
+/*
+以下是隐藏AD的高度
+*/
+/* .yuan-ad{
     width: 100%;
     height: 80px;
     margin-bottom: 16px;
@@ -50,4 +53,4 @@ page,.page {
     background: #f9f9f9;
     border-radius: 4px;
     overflow: hidden;
-}
+} */
